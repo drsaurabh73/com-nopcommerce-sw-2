@@ -76,5 +76,6 @@ public class RegisterTest extends BeseTest {
 
 
     }
+    public void tearDown() { closeBrowser();}
 
 }

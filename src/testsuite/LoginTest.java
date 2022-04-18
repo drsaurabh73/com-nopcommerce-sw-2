@@ -44,7 +44,7 @@ public class LoginTest extends BeseTest {
         loginLink.click();
         // Enter email in to email field
         WebElement emailField = driver.findElement(By.id("Email"));
-        emailField.sendKeys("pappu@gmail.com");
+        emailField.sendKeys("pappupatil@gmail.com");
         // Enter Password to password field
         WebElement password = driver.findElement(By.name("Password"));
         password.sendKeys("123456");

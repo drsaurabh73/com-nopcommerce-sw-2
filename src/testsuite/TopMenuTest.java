@@ -20,7 +20,7 @@ public class TopMenuTest extends BeseTest {
     public void userShouldNavigateToComputerPageSuccessfully() {
 
         //computer element
-        WebElement Computerlink = driver.findElement(By.linkText("Computer"));
+        WebElement Computerlink = driver.findElement(By.linkText("Computers"));
         Computerlink.click();
 
         //Actuall result
@@ -113,5 +113,8 @@ public class TopMenuTest extends BeseTest {
     Assert.assertEquals("User unable to open Gift cards",actualMessageElement,expectedResult);
 
 
+}
+public void tearDown(){
+        driver.quit();
 }
 }
